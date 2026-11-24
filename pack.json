@@ -1,0 +1,1624 @@
+{
+  "format": 1,
+  "avatars": [
+    {
+      "id": "jp1-raptor",
+      "kind": "agent",
+      "name": "Velociraptor",
+      "handles": [
+        "raptor"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-raptor.png",
+      "sha256": "9ff90ff88635391bbf0cdf996db76448ff713d73da5d00703122cbd52cab448c"
+    },
+    {
+      "id": "jp1-grant",
+      "kind": "agent",
+      "name": "Dr. Alan Grant",
+      "handles": [
+        "alan",
+        "grant"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-grant.png",
+      "sha256": "72691208cb70581df0c375ffc5e0676fb48e3e7a8383401e8a77dc0fe523c3f8"
+    },
+    {
+      "id": "jp1-sattler",
+      "kind": "agent",
+      "name": "Dr. Ellie Sattler",
+      "handles": [
+        "ellie",
+        "sattler"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-sattler.png",
+      "sha256": "63580751baea342ef907be702b76fcd3d0fa33d0c1b7ce20a90390713acc98b7"
+    },
+    {
+      "id": "jp1-malcolm",
+      "kind": "agent",
+      "name": "Dr. Ian Malcolm",
+      "handles": [
+        "ian",
+        "malcolm"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-malcolm.png",
+      "sha256": "6c2023ddb2352fe0df9cfd68293f22f008cf688053e0db0e5b3623bf65b53b15"
+    },
+    {
+      "id": "jp1-hammond",
+      "kind": "agent",
+      "name": "John Hammond",
+      "handles": [
+        "hammond"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-hammond.png",
+      "sha256": "b097199e312df5bfa3b57993775ebd43af90e13a22fa28e6fccc42fc87812419"
+    },
+    {
+      "id": "jp1-nedry",
+      "kind": "agent",
+      "name": "Dennis Nedry",
+      "handles": [
+        "dennis",
+        "nedry"
+      ],
+      "crop": {
+        "size": 0.66,
+        "center_x": 0.5113959679236779,
+        "center_y": 0.5641027597280649,
+        "source_width": 256,
+        "source_height": 256
+      },
+      "original": "originals/jp1-nedry.png",
+      "sha256": "ad5b977432d8cfd370a71f42a000ae19caf3dd80f5c79bcde2fe2195c64d3c83"
+    },
+    {
+      "id": "jp1-muldoon",
+      "kind": "agent",
+      "name": "Robert Muldoon",
+      "handles": [
+        "muldoon"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-muldoon.png",
+      "sha256": "56b8213539e01640e3f819a6e809b0e255e2d19df8626ddfd93ec2cc8e4a3afb"
+    },
+    {
+      "id": "jp1-arnold",
+      "kind": "agent",
+      "name": "Ray Arnold",
+      "handles": [
+        "ray",
+        "arnold"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/jp1-arnold.png",
+      "sha256": "d27f28425f3d4943b94d3f19e2f15c63b7a567f3f836b1139dfe178aeb21b886"
+    },
+    {
+      "id": "av_84b4882ddd3b6b795ef87c5d",
+      "kind": "agent",
+      "name": "tim",
+      "handles": [
+        "tim"
+      ],
+      "crop": {
+        "size": 0.62,
+        "center_x": 0.5202519008091517,
+        "center_y": 0.43251968978287336,
+        "source_width": 1080,
+        "source_height": 649
+      },
+      "original": "originals/av_84b4882ddd3b6b795ef87c5d.png",
+      "sha256": "3c9fd10e0e045ea332b63537b971291085f9a807a9448d39f286ea617f38cc17"
+    },
+    {
+      "id": "av_56d07ccd537e7210c79e7ebe",
+      "kind": "agent",
+      "name": "Arthur",
+      "handles": [
+        "arthur"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.3943453107561384,
+        "center_y": 0.5,
+        "source_width": 624,
+        "source_height": 344
+      },
+      "original": "originals/av_56d07ccd537e7210c79e7ebe.png",
+      "sha256": "848e9bda794f2e9ea38dd566693fece1949271ebcb647cf4bffb8ba0c57ee8a5"
+    },
+    {
+      "id": "av_35b5f387d85c4971d4267e64",
+      "kind": "agent",
+      "name": "black knight",
+      "handles": [
+        "blackknight"
+      ],
+      "crop": {
+        "size": 0.78,
+        "center_x": 0.61,
+        "center_y": 0.4921151498647836,
+        "source_width": 554,
+        "source_height": 554
+      },
+      "original": "originals/av_35b5f387d85c4971d4267e64.png",
+      "sha256": "83e4baabc204b2741cb40a9d0566c9535b24a9a76316f9c9e2550ab3044fab2f"
+    },
+    {
+      "id": "av_918354ee612ce7802fd2c055",
+      "kind": "agent",
+      "name": "Lancelot",
+      "handles": [
+        "lancelot"
+      ],
+      "crop": {
+        "size": 0.87,
+        "center_x": 0.4824038461538461,
+        "center_y": 0.4182692307692308,
+        "source_width": 500,
+        "source_height": 610
+      },
+      "original": "originals/av_918354ee612ce7802fd2c055.png",
+      "sha256": "d20bc4846fc157d3c7ee996c654794c8c39c140f894059143f7c5cdd2859640d"
+    },
+    {
+      "id": "av_20d6b64a56b7004fab3dac04",
+      "kind": "agent",
+      "name": "Sir robin",
+      "handles": [
+        "robin"
+      ],
+      "crop": {
+        "size": 0.31,
+        "center_x": 0.33779754638671877,
+        "center_y": 0.2532017075773746,
+        "source_width": 1400,
+        "source_height": 937
+      },
+      "original": "originals/av_20d6b64a56b7004fab3dac04.png",
+      "sha256": "81d9d79470c8e47609ac1881a6d47f5a082966b0edfc2296e726a15220b94c35"
+    },
+    {
+      "id": "av_e8e8a83529a3817548e50a34",
+      "kind": "agent",
+      "name": "Sir Bedivere",
+      "handles": [
+        "bedivere"
+      ],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.34672611781529017,
+        "center_y": 0.3888888888888889,
+        "source_width": 1280,
+        "source_height": 720
+      },
+      "original": "originals/av_e8e8a83529a3817548e50a34.png",
+      "sha256": "bfd85525c5b18a02fbf4c9bd97ea7cd129fabd0dd41c4dd8157954204f5cf7a2"
+    },
+    {
+      "id": "av_87a0575e1eb4643162bb0549",
+      "kind": "agent",
+      "name": "Bridgekeeper",
+      "handles": [
+        "bridgekeeper"
+      ],
+      "crop": {
+        "size": 0.89,
+        "center_x": 0.5401785714285714,
+        "center_y": 0.445,
+        "source_width": 629,
+        "source_height": 340
+      },
+      "original": "originals/av_87a0575e1eb4643162bb0549.png",
+      "sha256": "3dc0dd6ead72bfbc5b3eaf2bf541071aa6cb241576369d5dac4574510bf882a2"
+    },
+    {
+      "id": "av_b40957f17b06efb33805df88",
+      "kind": "agent",
+      "name": "Gallahad",
+      "handles": [
+        "galahad"
+      ],
+      "crop": {
+        "size": 0.79,
+        "center_x": 0.5505953107561384,
+        "center_y": 0.45950761256883704,
+        "source_width": 800,
+        "source_height": 441
+      },
+      "original": "originals/av_b40957f17b06efb33805df88.png",
+      "sha256": "69bfcc0f020007f6ac758bf5e813310cf5e4075fd401ec75768baf6a0a62ebfb"
+    },
+    {
+      "id": "av_b38e12c81a7b5af07106e156",
+      "kind": "agent",
+      "name": "Ni",
+      "handles": [
+        "ni"
+      ],
+      "crop": {
+        "size": 0.78,
+        "center_x": 0.5252977643694197,
+        "center_y": 0.39,
+        "source_width": 1671,
+        "source_height": 1000
+      },
+      "original": "originals/av_b38e12c81a7b5af07106e156.png",
+      "sha256": "655466424aea970c6e0fa38ccef81db2186a2fb694b7dbe81fe46eda65fb4446"
+    },
+    {
+      "id": "av_082685e7661f7b8243e7f058",
+      "kind": "agent",
+      "name": "Spinosaurus",
+      "handles": [
+        "spino"
+      ],
+      "crop": {
+        "size": 0.51,
+        "center_x": 0.745,
+        "center_y": 0.2948717557466947,
+        "source_width": 800,
+        "source_height": 814
+      },
+      "original": "originals/av_082685e7661f7b8243e7f058.png",
+      "sha256": "49907083bc4cb9a9f1a1fc4119a8f5d6d7c8fb7ba6e7c8cf1876bb5d9865dbaa"
+    },
+    {
+      "id": "av_f9ea33c21e89d0632ade5572",
+      "kind": "agent",
+      "name": "trex",
+      "handles": [
+        "rex"
+      ],
+      "crop": {
+        "size": 0.52,
+        "center_x": 0.20877947126116073,
+        "center_y": 0.3292857142857143,
+        "source_width": 1160,
+        "source_height": 725
+      },
+      "original": "originals/av_f9ea33c21e89d0632ade5572.png",
+      "sha256": "60b527d23804b8f7c44723e6b6937f4d1ddfa06013f2f8fa5ad49d0bc4b1f0cf"
+    },
+    {
+      "id": "av_0f064809e2fff03aecdca6d4",
+      "kind": "agent",
+      "name": "Brontosaurus",
+      "handles": [
+        "bronto"
+      ],
+      "crop": {
+        "size": 0.52,
+        "center_x": 0.7752973284040179,
+        "center_y": 0.38538681948424064,
+        "source_width": 1280,
+        "source_height": 698
+      },
+      "original": "originals/av_0f064809e2fff03aecdca6d4.png",
+      "sha256": "f891f847eefaccd63dd03652336cfde2a264bdd270cd6d05056acf74086ad650"
+    },
+    {
+      "id": "av_8f4528af5db954f65c64a2b0",
+      "kind": "agent",
+      "name": "enclave armor",
+      "handles": [
+        "enclave"
+      ],
+      "crop": {
+        "size": 0.97,
+        "center_x": 0.7271875,
+        "center_y": 0.48500000000000004,
+        "source_width": 2560,
+        "source_height": 1440
+      },
+      "original": "originals/av_8f4528af5db954f65c64a2b0.png",
+      "sha256": "24712988d3ee8beb9f4a946148c58b37eb4e932609c82ccb97c8a7039be3367e"
+    },
+    {
+      "id": "av_099f4d59f66d4dd670533380",
+      "kind": "agent",
+      "name": "power armor",
+      "handles": [
+        "paladin"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.375,
+        "center_y": 0.5,
+        "source_width": 1200,
+        "source_height": 900
+      },
+      "original": "originals/av_099f4d59f66d4dd670533380.png",
+      "sha256": "7a2bc722c8cc4f374bc3cc8bc10a51f903fbbd1069284c025accbb69e5dd304d"
+    },
+    {
+      "id": "av_fc54adfa15458d68ae86a6ff",
+      "kind": "agent",
+      "name": "Templar",
+      "handles": [
+        "templar"
+      ],
+      "crop": {
+        "size": 0.18,
+        "center_x": 0.6658776227510891,
+        "center_y": 0.10358978271484376,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_fc54adfa15458d68ae86a6ff.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_8348274a548dc692154c1bd4",
+      "kind": "agent",
+      "name": "Goon",
+      "handles": [
+        "goon"
+      ],
+      "crop": {
+        "size": 0.22,
+        "center_x": 0.897425,
+        "center_y": 0.3044871403620793,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_8348274a548dc692154c1bd4.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_c6daa9ad88ea488b0dfeae11",
+      "kind": "agent",
+      "name": "Archon",
+      "handles": [
+        "archon"
+      ],
+      "crop": {
+        "size": 0.21,
+        "center_x": 0.3012459206214318,
+        "center_y": 0.30128197303185095,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_c6daa9ad88ea488b0dfeae11.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_6f0029f7872231d24180ab5f",
+      "kind": "agent",
+      "name": "Tassadar",
+      "handles": [
+        "tassadar"
+      ],
+      "crop": {
+        "size": 0.22,
+        "center_x": 0.5029889279879056,
+        "center_y": 0.7003204345703125,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_6f0029f7872231d24180ab5f.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_2bf75076f33fa2d28976fc17",
+      "kind": "agent",
+      "name": "Zeratul",
+      "handles": [
+        "zeratul"
+      ],
+      "crop": {
+        "size": 0.2,
+        "center_x": 0.7062259615384615,
+        "center_y": 0.698718026968149,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_2bf75076f33fa2d28976fc17.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_e62ef4a9bf0d5e9d712f24fa",
+      "kind": "agent",
+      "name": "Archon",
+      "handles": [
+        "archon"
+      ],
+      "crop": {
+        "size": 0.21,
+        "center_x": 0.7181812356802133,
+        "center_y": 0.5032052847055288,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_e62ef4a9bf0d5e9d712f24fa.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_8ea8778be79cec53ff798b22",
+      "kind": "agent",
+      "name": "battlecruiser",
+      "handles": [
+        "captain"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.125,
+        "center_y": 0.08928571428571429,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_8ea8778be79cec53ff798b22.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_e9d7015f9d2d002001538623",
+      "kind": "agent",
+      "name": "Dropship",
+      "handles": [
+        "pilot"
+      ],
+      "crop": {
+        "size": 0.24,
+        "center_x": 0.3833335524338942,
+        "center_y": 0.08571428571428572,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_e9d7015f9d2d002001538623.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_dbeccf07dfed554e843eb600",
+      "kind": "agent",
+      "name": "firebat",
+      "handles": [
+        "firebat"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.639102783203125,
+        "center_y": 0.08928571428571429,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_dbeccf07dfed554e843eb600.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_e87e69bd8e96c93a081ef3c9",
+      "kind": "agent",
+      "name": "Ghost",
+      "handles": [
+        "ghost"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.875,
+        "center_y": 0.08928571428571429,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_e87e69bd8e96c93a081ef3c9.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_397dca61f14e3db74ad6a2a5",
+      "kind": "agent",
+      "name": "goliath",
+      "handles": [
+        "goliath"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.12653846153846154,
+        "center_y": 0.2419872577373798,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_397dca61f14e3db74ad6a2a5.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_d768dc35539d657909bc70ab",
+      "kind": "agent",
+      "name": "Marine",
+      "handles": [
+        "marine"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.3743590839092548,
+        "center_y": 0.25641021728515623,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_d768dc35539d657909bc70ab.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_eaa4c78e53b14248a57413fc",
+      "kind": "agent",
+      "name": "medic",
+      "handles": [
+        "medic"
+      ],
+      "crop": {
+        "size": 0.26,
+        "center_x": 0.6368590839092548,
+        "center_y": 0.25961538461538464,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_eaa4c78e53b14248a57413fc.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_fb125f8d8611393be549f550",
+      "kind": "agent",
+      "name": "science vessel",
+      "handles": [
+        "vessel"
+      ],
+      "crop": {
+        "size": 0.24,
+        "center_x": 0.88,
+        "center_y": 0.2451921903170072,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_fb125f8d8611393be549f550.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_f4603b72e9bb35eda8348578",
+      "kind": "agent",
+      "name": "vulture",
+      "handles": [
+        "vulture"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.875,
+        "center_y": 0.41346153846153844,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_f4603b72e9bb35eda8348578.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_b0efd14eaf9e13f844e5f80d",
+      "kind": "agent",
+      "name": "scv",
+      "handles": [
+        "scv"
+      ],
+      "crop": {
+        "size": 0.26,
+        "center_x": 0.13,
+        "center_y": 0.4198718731219952,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_b0efd14eaf9e13f844e5f80d.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_bc23f3cf41eb350f3e693f1e",
+      "kind": "agent",
+      "name": "tank",
+      "handles": [
+        "tank"
+      ],
+      "crop": {
+        "size": 0.29,
+        "center_x": 0.37884615384615383,
+        "center_y": 0.42147439809945914,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_bc23f3cf41eb350f3e693f1e.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_b3ec519c04c598ea5aba2c1f",
+      "kind": "agent",
+      "name": "kerrigan",
+      "handles": [
+        "sarah",
+        "kerrigan"
+      ],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.37884615384615383,
+        "center_y": 0.9107142857142857,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_b3ec519c04c598ea5aba2c1f.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_399c92cd4566d8dfa82eff29",
+      "kind": "agent",
+      "name": "raynor",
+      "handles": [
+        "jim",
+        "raynor"
+      ],
+      "crop": {
+        "size": 0.22,
+        "center_x": 0.89,
+        "center_y": 0.7419870229867789,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_399c92cd4566d8dfa82eff29.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_45b88a30c7b3f5e1e3512b71",
+      "kind": "agent",
+      "name": "neo",
+      "handles": [
+        "neo"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5193450927734375,
+        "center_y": 0.5,
+        "source_width": 800,
+        "source_height": 440
+      },
+      "original": "originals/av_45b88a30c7b3f5e1e3512b71.png",
+      "sha256": "f8a4195b1b4c4e5f285849fdca66b289846fed205e66fe94e50e3c5ca4ce14c9"
+    },
+    {
+      "id": "av_9acd1f6e9a0c7ce2e128d0b8",
+      "kind": "agent",
+      "name": "morpheus",
+      "handles": [
+        "morpheus"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5089285714285714,
+        "center_y": 0.5,
+        "source_width": 780,
+        "source_height": 438
+      },
+      "original": "originals/av_9acd1f6e9a0c7ce2e128d0b8.png",
+      "sha256": "e3562d91391a9394f76c082f3f57bf0be0cdb65c62e29243bd9fd3122010cbd8"
+    },
+    {
+      "id": "av_109057279b28a0c29fe70f87",
+      "kind": "agent",
+      "name": "smith",
+      "handles": [
+        "smith"
+      ],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.5064103346604567,
+        "center_y": 0.21000000000000002,
+        "source_width": 640,
+        "source_height": 640
+      },
+      "original": "originals/av_109057279b28a0c29fe70f87.png",
+      "sha256": "1dee30d51592cdbedbebb13d6d5c99112d9680d334bc72e9042857cb0598b312"
+    },
+    {
+      "id": "av_45e4986bf705a1c0cc9576a4",
+      "kind": "agent",
+      "name": "trinity",
+      "handles": [
+        "trinity"
+      ],
+      "crop": {
+        "size": 0.23,
+        "center_x": 0.4728969654670129,
+        "center_y": 0.1313740904168954,
+        "source_width": 640,
+        "source_height": 902
+      },
+      "original": "originals/av_45e4986bf705a1c0cc9576a4.png",
+      "sha256": "aef4d79a51c52a1bb08b45ffe94e803607a6ed198d69ca63c19be718ec4e1456"
+    },
+    {
+      "id": "av_8657d6aca29a7d669353459b",
+      "kind": "agent",
+      "name": "frodo",
+      "handles": [
+        "frodo"
+      ],
+      "crop": {
+        "size": 0.9,
+        "center_x": 0.4211310250418527,
+        "center_y": 0.45,
+        "source_width": 1917,
+        "source_height": 795
+      },
+      "original": "originals/av_8657d6aca29a7d669353459b.png",
+      "sha256": "66551eb20ebe7951e3f78a1483119c2374a3dd0b58b13d0d7ab7c04f601e090e"
+    },
+    {
+      "id": "av_e3384ffaab7e8afa0b8fb863",
+      "kind": "agent",
+      "name": "gandalf",
+      "handles": [
+        "gandalf"
+      ],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.6577381678989955,
+        "center_y": 0.21,
+        "source_width": 1300,
+        "source_height": 867
+      },
+      "original": "originals/av_e3384ffaab7e8afa0b8fb863.png",
+      "sha256": "085d982198025fed5f24afa1b3a5c691aef74e06e869f830e992775063ffa908"
+    },
+    {
+      "id": "av_4ee1f2612631ae952da9c412",
+      "kind": "agent",
+      "name": "Birdie",
+      "handles": [
+        "birdie"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 191,
+        "source_height": 191
+      },
+      "original": "originals/av_4ee1f2612631ae952da9c412.png",
+      "sha256": "15fcac5b62f6ebb0c5b3b1121cb5f4939f5e69ef5c42d241bb1e2c6befd22e99"
+    },
+    {
+      "id": "av_e82a3762a386db519c8c0ba9",
+      "kind": "agent",
+      "name": "Candy",
+      "handles": [
+        "jerri"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 422,
+        "source_height": 519
+      },
+      "original": "originals/av_e82a3762a386db519c8c0ba9.png",
+      "sha256": "0765f324602adc4b534a26c7c35bcdb073902835a02dca48432aae766319c952"
+    },
+    {
+      "id": "av_ba26fcbcc7403a918ba154de",
+      "kind": "agent",
+      "name": "real estate",
+      "handles": [
+        "realestate"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.45402868550395037,
+        "center_y": 0.5,
+        "source_width": 263,
+        "source_height": 202
+      },
+      "original": "originals/av_ba26fcbcc7403a918ba154de.png",
+      "sha256": "c5f52c5572ae114ad994a941126e55c2bc607ffd867d90c90eb45313ebfe6f28"
+    },
+    {
+      "id": "av_793428e7c382ef09d9cb6288",
+      "kind": "agent",
+      "name": "Grinch",
+      "handles": [
+        "grinch"
+      ],
+      "crop": {
+        "size": 1.46,
+        "center_x": 0.5406,
+        "center_y": 0.4802,
+        "source_width": 216,
+        "source_height": 273
+      },
+      "original": "originals/av_793428e7c382ef09d9cb6288.png",
+      "sha256": "0d28dc6c4cc1e5708c84580d9ba75d9f018939da10c8e99c4366efe1892fa3fd"
+    },
+    {
+      "id": "av_0e54c00d0f2407564b603f26",
+      "kind": "agent",
+      "name": "Nelson",
+      "handles": [
+        "nelson"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5823863636363636,
+        "center_y": 0.5,
+        "source_width": 528,
+        "source_height": 441
+      },
+      "original": "originals/av_0e54c00d0f2407564b603f26.png",
+      "sha256": "861cd960fe89c25c49262ffae3fecf00dc7d049f68fe3036f549a3a1989b1813"
+    },
+    {
+      "id": "av_1efc3fe804cb2ca1da6fa4c5",
+      "kind": "agent",
+      "name": "noatmosphere",
+      "handles": [
+        "quaid"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 392,
+        "source_height": 302
+      },
+      "original": "originals/av_1efc3fe804cb2ca1da6fa4c5.png",
+      "sha256": "720b2cbd188000d7d5d5d12bd9434de54a41360f5be74661093e3a0aec6fb213"
+    },
+    {
+      "id": "av_2a466f0f3face359c3aff22d",
+      "kind": "agent",
+      "name": "oof",
+      "handles": [
+        "oof"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5870165745856353,
+        "center_y": 0.5,
+        "source_width": 362,
+        "source_height": 299
+      },
+      "original": "originals/av_2a466f0f3face359c3aff22d.png",
+      "sha256": "5a1831255d14147ef8f014e084b3d36038fb2d74a3aa5504a0a4c531d65a2791"
+    },
+    {
+      "id": "av_e4c647b17f83c0c903a740e9",
+      "kind": "agent",
+      "name": "Worm",
+      "handles": [
+        "worm"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 269,
+        "source_height": 251
+      },
+      "original": "originals/av_e4c647b17f83c0c903a740e9.png",
+      "sha256": "073d255cf6653881885ab72a0eef3343e0a420b85d36c0464407afc1f8eb65ad"
+    },
+    {
+      "id": "av_8643be5182e8a6b0031daac6",
+      "kind": "agent",
+      "name": "Harold",
+      "handles": [
+        "harold"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.4179894583565848,
+        "center_y": 0.5,
+        "source_width": 1222,
+        "source_height": 820
+      },
+      "original": "originals/av_8643be5182e8a6b0031daac6.png",
+      "sha256": "2b04012797f77fe7726bd7eb41cacbba1b77d300ccd02e5bc933fc7681f07770"
+    },
+    {
+      "id": "av_2c9a16fcefa5aad22c85153e",
+      "kind": "agent",
+      "name": "Marcus",
+      "handles": [
+        "marcus"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5317459106445312,
+        "center_y": 0.5,
+        "source_width": 803,
+        "source_height": 414
+      },
+      "original": "originals/av_2c9a16fcefa5aad22c85153e.png",
+      "sha256": "96c1336d61750e12bc2acef30cf9dafd8562b08b6505c9a0573050b5fffe5afb"
+    },
+    {
+      "id": "av_e9ef87c2689196d449a97c6a",
+      "kind": "agent",
+      "name": "Myron",
+      "handles": [
+        "myron"
+      ],
+      "crop": {
+        "size": 0.83,
+        "center_x": 0.49735434395926337,
+        "center_y": 0.415,
+        "source_width": 803,
+        "source_height": 411
+      },
+      "original": "originals/av_e9ef87c2689196d449a97c6a.png",
+      "sha256": "0a48e1107b491e6a7f9deab75df74a942cfaf3b0a6c7b67325c6f2b3f73d2435"
+    },
+    {
+      "id": "av_62aa3c46b7b8a178a42abc4d",
+      "kind": "agent",
+      "name": "Sulik",
+      "handles": [
+        "sulik"
+      ],
+      "crop": {
+        "size": 0.77,
+        "center_x": 0.49603184291294644,
+        "center_y": 0.385,
+        "source_width": 803,
+        "source_height": 414
+      },
+      "original": "originals/av_62aa3c46b7b8a178a42abc4d.png",
+      "sha256": "86ec9ae0a29f2600a030ff3d1b0bdebbc8e8f184ac76b8ec72a71a8e6d3f4699"
+    },
+    {
+      "id": "av_a0ace9169c4c6f45e61edc7c",
+      "kind": "agent",
+      "name": "Hakunin",
+      "handles": [
+        "hakunin"
+      ],
+      "crop": {
+        "size": 0.85,
+        "center_x": 0.51322751726423,
+        "center_y": 0.425,
+        "source_width": 803,
+        "source_height": 414
+      },
+      "original": "originals/av_a0ace9169c4c6f45e61edc7c.png",
+      "sha256": "6d317dda75304ae8b3cc9867a5ee94dc262b557f84504b2e8323ef8da2f2c8f4"
+    },
+    {
+      "id": "av_d10d56ef950252369adf7df1",
+      "kind": "agent",
+      "name": "Killian",
+      "handles": [
+        "killian"
+      ],
+      "crop": {
+        "size": 0.83,
+        "center_x": 0.5264550345284599,
+        "center_y": 0.415,
+        "source_width": 803,
+        "source_height": 414
+      },
+      "original": "originals/av_d10d56ef950252369adf7df1.png",
+      "sha256": "eb871ef451ea48bb5d233b26e4de5aed7f0f196947ce8a12bc728d0848367c68"
+    },
+    {
+      "id": "av_200735d3d217a5a8b75eab9a",
+      "kind": "agent",
+      "name": "Robes",
+      "handles": [
+        "robes"
+      ],
+      "crop": {
+        "size": 0.57,
+        "center_x": 0.46031744820731024,
+        "center_y": 0.5503075675964355,
+        "source_width": 461,
+        "source_height": 400
+      },
+      "original": "originals/av_200735d3d217a5a8b75eab9a.png",
+      "sha256": "a565baf14048568249eff0544008637fa2ca62f8a9ed19ffd940be5d91ca7080"
+    },
+    {
+      "id": "av_99254584ee6a4585ba4950f6",
+      "kind": "agent",
+      "name": "Fallout temple head",
+      "handles": [
+        "idol"
+      ],
+      "crop": {
+        "size": 0.93,
+        "center_x": 0.5185185023716518,
+        "center_y": 0.465,
+        "source_width": 319,
+        "source_height": 249
+      },
+      "original": "originals/av_99254584ee6a4585ba4950f6.png",
+      "sha256": "2b7ddf4cf316f830b51d3c6bec1fd7fe99050a93b5e22756217fa9a849ca8044"
+    },
+    {
+      "id": "av_976ac7bb5bd9c709cfb01990",
+      "kind": "agent",
+      "name": "Peon",
+      "handles": [
+        "peon"
+      ],
+      "crop": {
+        "size": 0.17,
+        "center_x": 0.095,
+        "center_y": 0.095,
+        "source_width": 1080,
+        "source_height": 1080
+      },
+      "original": "originals/av_976ac7bb5bd9c709cfb01990.png",
+      "sha256": "ff7dc032eb4d0e6c5b3c4f987a688fc292366ab758253c65c2c68d45212e67d6"
+    },
+    {
+      "id": "av_0f1d835e4720f96ecea2c4c6",
+      "kind": "agent",
+      "name": "Arthas",
+      "handles": [
+        "arthas"
+      ],
+      "crop": {
+        "size": 0.84,
+        "center_x": 0.40656000000000003,
+        "center_y": 0.42,
+        "source_width": 1000,
+        "source_height": 968
+      },
+      "original": "originals/av_0f1d835e4720f96ecea2c4c6.png",
+      "sha256": "30f67ab57d947bb4b381f6fe1afe3c2714991a3a3e6a3411965d6a4cab2a57d1"
+    },
+    {
+      "id": "av_7c03a175211fa16c2e033976",
+      "kind": "agent",
+      "name": "Grunt",
+      "handles": [
+        "grunt"
+      ],
+      "crop": {
+        "size": 0.89,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 64,
+        "source_height": 64
+      },
+      "original": "originals/av_7c03a175211fa16c2e033976.png",
+      "sha256": "6279a5a973e472dd3f839aea9cab452cf3a71f3a6cca492f116f57d70cf82593"
+    },
+    {
+      "id": "av_64ef359254d0c0e0515174e0",
+      "kind": "agent",
+      "name": "Tauren Chieftan",
+      "handles": [
+        "cairne",
+        "tauren"
+      ],
+      "crop": {
+        "size": 0.9,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 64,
+        "source_height": 64
+      },
+      "original": "originals/av_64ef359254d0c0e0515174e0.png",
+      "sha256": "dd3604df3fe4078d892c3281c7f6c87fae877858ade5a4f084b324ccff294225"
+    },
+    {
+      "id": "av_3525942382ccf828bdd37c91",
+      "kind": "agent",
+      "name": "Abomination",
+      "handles": [
+        "abomination"
+      ],
+      "crop": {
+        "size": 0.89,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 64,
+        "source_height": 64
+      },
+      "original": "originals/av_3525942382ccf828bdd37c91.png",
+      "sha256": "6b8f548ffd0594f15814ba9a5f99505eaf4c7df843a88f8b514985faa05262e1"
+    },
+    {
+      "id": "av_996702c177a76d21e458578d",
+      "kind": "agent",
+      "name": "Illidan",
+      "handles": [
+        "illidan"
+      ],
+      "crop": {
+        "size": 0.88,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 64,
+        "source_height": 64
+      },
+      "original": "originals/av_996702c177a76d21e458578d.png",
+      "sha256": "14ddb7f7ac74155f8ec4108b5830320b8b15ed1124ebc489eff39ae469dbc3a0"
+    },
+    {
+      "id": "av_b9e59f4e4c8281494584a693",
+      "kind": "agent",
+      "name": "Ghoul",
+      "handles": [
+        "ghoul"
+      ],
+      "crop": {
+        "size": 0.18,
+        "center_x": 0.5057692307692307,
+        "center_y": 0.30000011737530047,
+        "source_width": 1080,
+        "source_height": 1080
+      },
+      "original": "originals/av_b9e59f4e4c8281494584a693.png",
+      "sha256": "ff7dc032eb4d0e6c5b3c4f987a688fc292366ab758253c65c2c68d45212e67d6"
+    },
+    {
+      "id": "av_e16c3910bbfc9e21e75863a7",
+      "kind": "agent",
+      "name": "Pog",
+      "handles": [
+        "pog"
+      ],
+      "crop": {
+        "size": 0.87,
+        "center_x": 0.5296369752962442,
+        "center_y": 0.5461538461538461,
+        "source_width": 766,
+        "source_height": 787
+      },
+      "original": "originals/av_e16c3910bbfc9e21e75863a7.png",
+      "sha256": "41b68e45fbcb0170dd57507bab5d25ed52821bfa3fff38d760c8c96543da1f36"
+    },
+    {
+      "id": "av_916d2927ce70c51bf410e633",
+      "kind": "agent",
+      "name": "Hank Hill",
+      "handles": [
+        "hank",
+        "hill"
+      ],
+      "crop": {
+        "size": 1.63,
+        "center_x": 0.5505234644963191,
+        "center_y": 0.5135457154113043,
+        "source_width": 224,
+        "source_height": 330
+      },
+      "original": "originals/av_916d2927ce70c51bf410e633.png",
+      "sha256": "22045021800e12554a5cd868da6e755d32b70cc90b587e7a4ea26327a93655aa"
+    },
+    {
+      "id": "av_2f003a82092f3a215914f109",
+      "kind": "agent",
+      "name": "I sleep",
+      "handles": [
+        "shaq"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.3893587787334735,
+        "center_y": 0.48440179091233476,
+        "source_width": 300,
+        "source_height": 300
+      },
+      "original": "originals/av_2f003a82092f3a215914f109.png",
+      "sha256": "bf1873d79341fdf8e7cf6d18187941f866307c2e1a4afa2b15a97218fa555c0d"
+    },
+    {
+      "id": "av_d1febdb5f94f4059e98d1970",
+      "kind": "agent",
+      "name": "Fry",
+      "handles": [
+        "fry"
+      ],
+      "crop": {
+        "size": 1.43,
+        "center_x": 0.5802064031418448,
+        "center_y": 0.43461538461538457,
+        "source_width": 328,
+        "source_height": 450
+      },
+      "original": "originals/av_d1febdb5f94f4059e98d1970.png",
+      "sha256": "ae998c1dc88ebb2780d293e319d2fc367eb3bcfc49dc823b9b85049375d88daf"
+    },
+    {
+      "id": "av_1a59b46657814800be360e7d",
+      "kind": "agent",
+      "name": "12 Monkeys",
+      "handles": [
+        "bob",
+        "ross"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 327,
+        "source_height": 327
+      },
+      "original": "originals/av_1a59b46657814800be360e7d.png",
+      "sha256": "675f4a95e87e8e73fa7f48fc1964017d10e1cfa25b6fd931a0f54825f7e72462"
+    },
+    {
+      "id": "av_b6415a7a355ea11dad4eba3b",
+      "kind": "agent",
+      "name": "Ross",
+      "handles": [
+        "bustin"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 112,
+        "source_height": 112
+      },
+      "original": "originals/av_b6415a7a355ea11dad4eba3b.png",
+      "sha256": "599e18010aa7ff18d43b3aafbf7e5696443098b915d19e250c7a8676b796d24e"
+    },
+    {
+      "id": "av_ee145ced075ee12a5121f87b",
+      "kind": "agent",
+      "name": "Bustin'",
+      "handles": [
+        "monkeys"
+      ],
+      "crop": {
+        "size": 1.52,
+        "center_x": 0.48166337102386725,
+        "center_y": 0.5014958895169771,
+        "source_width": 251,
+        "source_height": 359
+      },
+      "original": "originals/av_ee145ced075ee12a5121f87b.png",
+      "sha256": "9aa88fd740408114540c6abddca5b09e6b065fb7e2076f3fc15c9c8d4e4713ed"
+    },
+    {
+      "id": "av_cef943ec9ce769e6ec1a117c",
+      "kind": "agent",
+      "name": "Crag Hack",
+      "handles": [
+        "craghack"
+      ],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_cef943ec9ce769e6ec1a117c.png",
+      "sha256": "998801b06bd358e03ffc790c7b32aa7dbb1a0d879128c040ab55bd8ad43bbbe2"
+    },
+    {
+      "id": "av_84aae3ba8a044cb713fb8923",
+      "kind": "agent",
+      "name": "Solmyr",
+      "handles": [
+        "solmyr"
+      ],
+      "crop": {
+        "size": 0.28,
+        "center_x": 0.5342194570135747,
+        "center_y": 0.25000000000000006,
+        "source_width": 612,
+        "source_height": 792
+      },
+      "original": "originals/av_84aae3ba8a044cb713fb8923.png",
+      "sha256": "c392f716d88a4ef7e7d98b63785ec290b08677e9aefddc12eeb438744481b1a1"
+    },
+    {
+      "id": "av_a41a4a7887ae36748e492fd6",
+      "kind": "agent",
+      "name": "Clavius",
+      "handles": [
+        "clavius"
+      ],
+      "crop": {
+        "size": 1.03,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_a41a4a7887ae36748e492fd6.png",
+      "sha256": "83a9cdfad5a231418b1868538675488aa3204b5f22cd5606843356f12394b659"
+    },
+    {
+      "id": "av_ca0026f93929c15a5320e9cc",
+      "kind": "agent",
+      "name": "Sandro",
+      "handles": [
+        "sandro"
+      ],
+      "crop": {
+        "size": 1.02,
+        "center_x": 0.5450928381962865,
+        "center_y": 0.43509615384615385,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_ca0026f93929c15a5320e9cc.png",
+      "sha256": "65f77d4ef98b02be35ae57a24bff8bb9556090aa39144ace08eb2716477d998f"
+    },
+    {
+      "id": "av_5703931e830937af43f140f8",
+      "kind": "agent",
+      "name": "Alamar",
+      "handles": [
+        "alamar"
+      ],
+      "crop": {
+        "size": 0.95,
+        "center_x": 0.5318302387267905,
+        "center_y": 0.4831730769230769,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_5703931e830937af43f140f8.png",
+      "sha256": "eae09563c76ca2dcc4869cbe2ad107ef47dec4d030bc0d2a12f98465694f9cb2"
+    },
+    {
+      "id": "av_932a5bd69023317ca3294170",
+      "kind": "agent",
+      "name": "Jeddite",
+      "handles": [
+        "jeddite"
+      ],
+      "crop": {
+        "size": 0.88,
+        "center_x": 0.5689655172413793,
+        "center_y": 0.47596153846153844,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_932a5bd69023317ca3294170.png",
+      "sha256": "f0477c63c9b0d2aa619ee3ea330f10d280e820d6ca807d85d3fc3c92df57f130"
+    },
+    {
+      "id": "av_bd5f53eb853e0655ad4a1acf",
+      "kind": "agent",
+      "name": "Sephinroth",
+      "handles": [
+        "sephinroth"
+      ],
+      "crop": {
+        "size": 0.99,
+        "center_x": 0.5238726790450928,
+        "center_y": 0.47115384615384615,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_bd5f53eb853e0655ad4a1acf.png",
+      "sha256": "4ccc3ffe39158c92e315bc67bfe04c82c29713f1301e4cd2190b4eaf93355af0"
+    },
+    {
+      "id": "av_aea463e84cc5d0af48845afc",
+      "kind": "agent",
+      "name": "Deemer",
+      "handles": [
+        "deemer"
+      ],
+      "crop": {
+        "size": 0.96,
+        "center_x": 0.5,
+        "center_y": 0.5,
+        "source_width": 58,
+        "source_height": 64
+      },
+      "original": "originals/av_aea463e84cc5d0af48845afc.png",
+      "sha256": "70e4a825c5392ccf3a5d031eab645f069365ed835a104ecc0698f8a982eac406"
+    },
+    {
+      "id": "personal_4faec29c99b7b27e",
+      "kind": "personal",
+      "name": "Nelson",
+      "handles": [],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.5
+      },
+      "original": "originals/personal_4faec29c99b7b27e.png",
+      "sha256": "d0e1c532c4fe886c0df40e521972d55a44510d62a1f941b31f9e582498baff73"
+    },
+    {
+      "id": "av_371df3a83f63dd7397013c06",
+      "kind": "system",
+      "name": "monty python god",
+      "handles": [],
+      "crop": {
+        "size": 0.96,
+        "center_x": 0.48,
+        "center_y": 0.52,
+        "source_width": 1200,
+        "source_height": 1200
+      },
+      "original": "originals/av_371df3a83f63dd7397013c06.png",
+      "sha256": "a77c140bc408fa11d389602cf17e23f5e76cec8887dd0a5694f727bae25b9ccf"
+    },
+    {
+      "id": "av_79022df46547d6dd6da844d6",
+      "kind": "system",
+      "name": "Buildings",
+      "handles": [],
+      "crop": {
+        "size": 0.19,
+        "center_x": 0.9114125,
+        "center_y": 0.698718026968149,
+        "source_width": 1200,
+        "source_height": 1119
+      },
+      "original": "originals/av_79022df46547d6dd6da844d6.png",
+      "sha256": "cda714fb2749621d08d2307862ffa86cfc6966feaf1cee965bc463743b3d0db4"
+    },
+    {
+      "id": "av_0cc17e97ba1d29473c5f4578",
+      "kind": "system",
+      "name": "system",
+      "handles": [],
+      "crop": {
+        "size": 0.25,
+        "center_x": 0.3496797062800481,
+        "center_y": 0.5801281268780049,
+        "source_width": 240,
+        "source_height": 336
+      },
+      "original": "originals/av_0cc17e97ba1d29473c5f4578.png",
+      "sha256": "bb09c12dbddae2a9e15483c9fcc39f5502ad66296852bbae93ed2e6138a82057"
+    },
+    {
+      "id": "av_c7bdca7ddbf8a0f9efeb5c2a",
+      "kind": "system",
+      "name": "god",
+      "handles": [],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.3824406215122768,
+        "center_y": 0.2732252211354751,
+        "source_width": 1059,
+        "source_height": 820
+      },
+      "original": "originals/av_c7bdca7ddbf8a0f9efeb5c2a.png",
+      "sha256": "bce7642f9b0a27bd6475608cc07b9994d1309e047585cdae150e434d89fdb2d1"
+    },
+    {
+      "id": "av_d8192c38756f9a37facf51ea",
+      "kind": "system",
+      "name": "architect",
+      "handles": [],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.6116073608398438,
+        "center_y": 0.21,
+        "source_width": 1159,
+        "source_height": 515
+      },
+      "original": "originals/av_d8192c38756f9a37facf51ea.png",
+      "sha256": "17fa27a2b9186c50132e3fc7ca4b22e4cd001f30f445cca3428be3fa16d5ff5b"
+    },
+    {
+      "id": "av_0a52618ca251bab14ece82a9",
+      "kind": "system",
+      "name": "HAL",
+      "handles": [],
+      "crop": {
+        "size": 0.83,
+        "center_x": 0.4999997820172991,
+        "center_y": 0.5019835825238909,
+        "source_width": 1333,
+        "source_height": 1000
+      },
+      "original": "originals/av_0a52618ca251bab14ece82a9.png",
+      "sha256": "9b1baad54bcf758859fc52a62609e9ab61ee5aae922ae53566ea519b5cc4ab9f"
+    },
+    {
+      "id": "av_932e47750f7fb123c30c2ffa",
+      "kind": "system",
+      "name": "Zeus",
+      "handles": [],
+      "crop": {
+        "size": 1,
+        "center_x": 0.5,
+        "center_y": 0.463140869140625,
+        "source_width": 450,
+        "source_height": 600
+      },
+      "original": "originals/av_932e47750f7fb123c30c2ffa.png",
+      "sha256": "520151561ecf886f160d8233f96db584499df553372504cf354b0a71bf25cf53"
+    },
+    {
+      "id": "av_462eb31a13166cbdc1b97b36",
+      "kind": "system",
+      "name": "God3",
+      "handles": [],
+      "crop": {
+        "size": 0.44,
+        "center_x": 0.47735101388617274,
+        "center_y": 0.2179294117647059,
+        "source_width": 421,
+        "source_height": 425
+      },
+      "original": "originals/av_462eb31a13166cbdc1b97b36.png",
+      "sha256": "20e645a896e70b818b54892bcf824ec7a43bbfca2c5e3393428c1f348388c963"
+    },
+    {
+      "id": "av_275662ab60058f95ef1e4566",
+      "kind": "system",
+      "name": "god4",
+      "handles": [],
+      "crop": {
+        "size": 0.28,
+        "center_x": 0.4939266381428045,
+        "center_y": 0.23557704045222355,
+        "source_width": 1326,
+        "source_height": 1675
+      },
+      "original": "originals/av_275662ab60058f95ef1e4566.png",
+      "sha256": "40a494b82e1e5e82cd4cf6468dfe6f6eb8edbc77d25ea8635a452f42df7d1393"
+    },
+    {
+      "id": "av_77090ee7329d9a6df1e4dfc2",
+      "kind": "system",
+      "name": "Galaxy brain",
+      "handles": [],
+      "crop": {
+        "size": 1.29,
+        "center_x": 0.5,
+        "center_y": 0.4963343108504399,
+        "source_width": 451,
+        "source_height": 516
+      },
+      "original": "originals/av_77090ee7329d9a6df1e4dfc2.png",
+      "sha256": "3f942574e84eb7eff6e0550942dbf4cc0f3a9f33e2b22afd42d1d1485efc4702"
+    },
+    {
+      "id": "av_bd26adc7410fc5d1eeadfa35",
+      "kind": "system",
+      "name": "Overmind",
+      "handles": [],
+      "crop": {
+        "size": 0.93,
+        "center_x": 0.5349999999999999,
+        "center_y": 0.5102564885066105,
+        "source_width": 377,
+        "source_height": 429
+      },
+      "original": "originals/av_bd26adc7410fc5d1eeadfa35.png",
+      "sha256": "73ff858f83dcece49073e2a93145827c623018c1c16f9e974642a2648a9106c1"
+    }
+  ]
+}

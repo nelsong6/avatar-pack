@@ -1,0 +1,39 @@
+name: CI
+
+# Holds the pack to format 1's rules (README, The rules), comparing it with the pull request's
+# base, so an id already on main keeps its picture. The go suite (pipeline-templates'
+# fleet.json) formats, vets and tests cmd/check itself. As in every home repo, checks run on
+# the pull request only: main gets nothing a pull request didn't pass (PIPT-12).
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  GOMAXPROCS: '4'
+  CGO_ENABLED: '0'
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The base revision the pack is compared with.
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: romaine-life/pipeline-templates/actions/setup-go@main
+      - name: Check the pack
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: go run ./cmd/check -base "$BASE"

@@ -52,14 +52,17 @@ here on this repo is the library: a change to it is a pull request.
 
 ## The rules
 
-CI (`cmd/check`) holds every pull request and every push to `main` to them, comparing with
-`main` as it was before the change:
+CI (`cmd/check`, in `.forgejo/workflows/ci.yml`) holds every pull request to them, comparing
+with the `main` it is based on; the go suite (pipeline-templates' `fleet.json`) formats, vets
+and tests `cmd/check` itself:
 
 - An id's picture never changes. at-claude caches pictures by id forever, so an id already on
   `main` keeps its `sha256` and its `crop`. A changed picture, or a re-centred one, is a new id.
-- `format` is 1; ids are unique and made of letters, digits, `-` and `_`; every listed file
+- `format` is 1; ids are unique, 1 to 100 letters, digits, `-` and `_` (they go in URLs); every listed file
   exists, matches its `sha256` and decodes as PNG; kinds are agent, system or personal, with
   at most one personal; every agent has at least one handle; a name is 1 to 80 characters.
+- The pack holds at least one agent and at least one system avatar. A service refuses a pack
+  without them, since loading it would mark every avatar of that kind it holds deleted.
 - Every file in `originals/` is listed, so a removed avatar takes its picture with it.
 
 Run them locally (four cores, as CI does):
@@ -94,5 +97,5 @@ logged, never misread. So a merge here reaches every ecosystem within the hour.
 
 ## Shipping
 
-Nothing ships from here: there is no build and no release. A merge is delivered once its push
-CI passes and the mirror has updated GitHub.
+Nothing ships from here: there is no build and no release. A merge is delivered once the
+mirror has updated GitHub, which it does as the merge lands.
