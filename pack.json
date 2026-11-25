@@ -1259,8 +1259,7 @@
       "kind": "agent",
       "name": "12 Monkeys",
       "handles": [
-        "bob",
-        "ross"
+        "monkeys"
       ],
       "crop": {
         "size": 1,
@@ -1277,7 +1276,8 @@
       "kind": "agent",
       "name": "Ross",
       "handles": [
-        "bustin"
+        "bob",
+        "ross"
       ],
       "crop": {
         "size": 1,
@@ -1294,7 +1294,7 @@
       "kind": "agent",
       "name": "Bustin'",
       "handles": [
-        "monkeys"
+        "bustin"
       ],
       "crop": {
         "size": 1.52,
