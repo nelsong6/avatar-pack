@@ -3,15 +3,16 @@
 The household's avatar library as a versioned pack: every picture the avatars service deals
 to at-claude sessions, with its name, handles and crop. The pictures are not built into the
 service. Each ecosystem (home, and each work laptop on its own) runs the same avatars service,
-and every one of them loads this pack by itself from its public GitHub copy
-([ATC-192](https://openproject.home.romaine.life/wp/ATC-192); this repo is
-[AVATARS-3](https://openproject.home.romaine.life/wp/AVATARS-3)).
+and every one of them loads this pack by itself: home's from its releases on Forgejo, each work
+laptop's from its public GitHub copy ([ATC-192](https://openproject.home.romaine.life/wp/ATC-192);
+this repo is [AVATARS-3](https://openproject.home.romaine.life/wp/AVATARS-3), its releases
+[AVATARS-6](https://openproject.home.romaine.life/wp/AVATARS-6)).
 
-- Forgejo, https://forgejo.romaine.life/nelsong6/avatar-pack, is the source: pull requests
-  and CI are here, and merge-queue lands them.
+- Forgejo, https://forgejo.romaine.life/nelsong6/avatar-pack, is the source: pull requests,
+  CI and releases are here, and merge-queue lands them.
 - GitHub, https://github.com/nelsong6/avatar-pack, is a public copy that a Forgejo push
-  mirror updates on every commit. Work laptops reach only GitHub, so every service reads the
-  pack from there, home's included. Nothing is ever changed on GitHub directly.
+  mirror updates on every commit and release. It exists only for the work laptops, which
+  can't reach home's services (ATC-192). Nothing is ever changed on GitHub directly.
 
 The library was exported once from home's live service (`GET /avatars` and each
 `/avatars/{id}/original`, every file checked against the SHA-256 the service gives it). From
@@ -85,17 +86,25 @@ GOMAXPROCS=4 go run ./cmd/check -base origin/main
   marked deleted, so sessions dealt it still show it.
 - **Nelson's own avatar:** replace the `personal` entry with one under a new id.
 
-## How services pick it up
-
-Each avatars service asks GitHub for `main`'s head
-(`GET https://api.github.com/repos/nelsong6/avatar-pack/commits/main` with its last ETag, so an
-unchanged answer is a free 304) when it starts and then hourly. When the sha differs from the
-one it last loaded, it downloads `https://codeload.github.com/nelsong6/avatar-pack/tar.gz/<sha>`,
-checks every rule above, and imports the pack in one transaction: upsert by id, mark ids no
-longer listed as deleted, record the sha. A pack whose `format` it doesn't know is refused and
-logged, never misread. So a merge here reaches every ecosystem within the hour.
-
 ## Shipping
 
-Nothing ships from here: there is no build and no release. A merge is delivered once the
-mirror has updated GitHub, which it does as the merge lands.
+A merge that changes the pack releases it: pipeline-templates' release suite (`release-module`
+in its `fleet.json` entry) takes the next `vX.Y.Z` tag and publishes a Forgejo release of the
+merge's source, building nothing. A merge changing only documentation, tests or workflows
+releases nothing.
+
+Home's avatars service loads each release when Forgejo announces it: it reads the pack at the
+release's commit, checks every rule above, and imports it in one transaction (upsert by id,
+mark ids no longer listed as deleted, record the commit). A pack whose `format` it doesn't
+know is refused, never misread. It then reports on ntfy's `activity` topic as `avatars/home`,
+`applied` or `failed` with the release's commit. The release is delivered when that report
+names it as applied: strip-owner (agent-tools) waits for it, since `fleet.json` names
+`avatars/home` as this repo's applier, and a `failed` report wakes the session that merged it.
+
+Each work laptop's avatars service can't reach home, so it keeps reading the GitHub copy: it
+asks GitHub for `main`'s head
+(`GET https://api.github.com/repos/nelsong6/avatar-pack/commits/main` with its last ETag, so an
+unchanged answer is a free 304) when it starts and then hourly, and when the sha differs from
+the one it last loaded it downloads `https://codeload.github.com/nelsong6/avatar-pack/tar.gz/<sha>`
+and imports it the same way. A merge reaches the work laptops within the hour, with no report
+back home.
