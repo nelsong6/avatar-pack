@@ -35,7 +35,7 @@ var (
 	idShape     = regexp.MustCompile(`^[A-Za-z0-9_-]{1,100}$`)
 	handleShape = regexp.MustCompile(`^[a-z0-9]+$`)
 	shaShape    = regexp.MustCompile(`^[0-9a-f]{64}$`)
-	kinds       = map[string]bool{"agent": true, "system": true, "personal": true}
+	kinds       = map[string]bool{"agent": true, "system": true, "personal": true, "reviewer": true}
 )
 
 // parse reads pack.json strictly: an unknown field is a mistake, not something to skip.
@@ -73,7 +73,7 @@ func check(dir string, base []byte) []error {
 
 	seen := map[string]bool{}
 	listed := map[string]bool{}
-	personal := 0
+	personal, reviewer := 0, 0
 	for i, a := range p.Avatars {
 		at := fmt.Sprintf("avatar %d (%s)", i, a.ID)
 		if !idShape.MatchString(a.ID) {
@@ -84,10 +84,13 @@ func check(dir string, base []byte) []error {
 		}
 		seen[a.ID] = true
 		if !kinds[a.Kind] {
-			fail("%s: kind %q is not agent, system or personal", at, a.Kind)
+			fail("%s: kind %q is not agent, system, personal or reviewer", at, a.Kind)
 		}
-		if a.Kind == "personal" {
+		switch a.Kind {
+		case "personal":
 			personal++
+		case "reviewer":
+			reviewer++
 		}
 		if n := utf8.RuneCountInString(a.Name); n < 1 || n > 80 {
 			fail("%s: name must be 1 to 80 characters", at)
@@ -127,6 +130,9 @@ func check(dir string, base []byte) []error {
 	}
 	if personal > 1 {
 		fail("pack.json: %d personal avatars, at most one", personal)
+	}
+	if reviewer > 1 {
+		fail("pack.json: %d reviewer avatars, at most one", reviewer)
 	}
 	// A service refuses a pack with none of a dealt kind: loading it would mark every
 	// avatar of that kind it holds deleted (nelsong6/avatars#30).

@@ -7,6 +7,7 @@ import (
 	"encoding/json"
 	"image"
 	"image/png"
+	"maps"
 	"os"
 	"path/filepath"
 	"strings"
@@ -78,6 +79,13 @@ func TestCheck(t *testing.T) {
 		{name: "unknown field", files: files, edit: func(p map[string]any) { entry(p, 0)["colour"] = "red" }, want: "unknown field"},
 		{name: "kind", files: files, edit: func(p map[string]any) { entry(p, 1)["kind"] = "robot" }, want: "kind \"robot\""},
 		{name: "two personal", files: files, edit: func(p map[string]any) { entry(p, 1)["kind"] = "personal" }, want: "2 personal"},
+		{name: "a reviewer is allowed", files: files, edit: func(p map[string]any) { entry(p, 2)["kind"] = "reviewer" }},
+		{name: "two reviewers", files: files, edit: func(p map[string]any) {
+			entry(p, 2)["kind"] = "reviewer"
+			second := maps.Clone(entry(p, 2))
+			second["id"], second["original"] = "me2", "originals/me2.png"
+			p["avatars"] = append(p["avatars"].([]any), second)
+		}, extra: func(dir string) { os.WriteFile(filepath.Join(dir, "originals", "me2.png"), files["me"], 0o644) }, want: "2 reviewer"},
 		{name: "agent without handle", files: files, edit: func(p map[string]any) { entry(p, 0)["handles"] = []any{} }, want: "at least one handle"},
 		{name: "bad handle", files: files, edit: func(p map[string]any) { entry(p, 0)["handles"] = []any{"Jim"} }, want: "lowercase letters"},
 		{name: "duplicate id", files: files, edit: func(p map[string]any) { entry(p, 1)["id"] = "a1"; entry(p, 1)["original"] = "originals/a1.png" }, want: "listed twice"},

@@ -1456,6 +1456,21 @@
       "sha256": "d0e1c532c4fe886c0df40e521972d55a44510d62a1f941b31f9e582498baff73"
     },
     {
+      "id": "av_38dc4e823c568832f50e35de",
+      "kind": "reviewer",
+      "name": "architect",
+      "handles": [],
+      "crop": {
+        "size": 0.42,
+        "center_x": 0.6116073608398438,
+        "center_y": 0.21,
+        "source_width": 1159,
+        "source_height": 515
+      },
+      "original": "originals/av_38dc4e823c568832f50e35de.png",
+      "sha256": "17fa27a2b9186c50132e3fc7ca4b22e4cd001f30f445cca3428be3fa16d5ff5b"
+    },
+    {
       "id": "av_371df3a83f63dd7397013c06",
       "kind": "system",
       "name": "monty python god",
@@ -1514,21 +1529,6 @@
       },
       "original": "originals/av_c7bdca7ddbf8a0f9efeb5c2a.png",
       "sha256": "bce7642f9b0a27bd6475608cc07b9994d1309e047585cdae150e434d89fdb2d1"
-    },
-    {
-      "id": "av_d8192c38756f9a37facf51ea",
-      "kind": "system",
-      "name": "architect",
-      "handles": [],
-      "crop": {
-        "size": 0.42,
-        "center_x": 0.6116073608398438,
-        "center_y": 0.21,
-        "source_width": 1159,
-        "source_height": 515
-      },
-      "original": "originals/av_d8192c38756f9a37facf51ea.png",
-      "sha256": "17fa27a2b9186c50132e3fc7ca4b22e4cd001f30f445cca3428be3fa16d5ff5b"
     },
     {
       "id": "av_0a52618ca251bab14ece82a9",

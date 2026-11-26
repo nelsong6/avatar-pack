@@ -39,8 +39,9 @@ here on this repo is the library: a change to it is a pull request.
 }
 ```
 
-- `kind` is `agent` (Claude's messages), `system` (system events) or `personal` (Nelson's
-  own, never dealt; at most one).
+- `kind` is `agent` (Claude's messages), `system` (system events), `personal` (Nelson's
+  own, never dealt; at most one) or `reviewer` (the architecture reviewer's, beside a
+  review's end in at-claude, ATC-205; never dealt; at most one).
 - `handles` are an agent's gamertag names (`pensive-raptor`): lowercase letters and digits,
   at least one for every agent.
 - `crop` is where the 512x512 circle sits on the original, as the service stores it: the
@@ -60,8 +61,8 @@ and tests `cmd/check` itself:
 - An id's picture never changes. at-claude caches pictures by id forever, so an id already on
   `main` keeps its `sha256` and its `crop`. A changed picture, or a re-centred one, is a new id.
 - `format` is 1; ids are unique, 1 to 100 letters, digits, `-` and `_` (they go in URLs); every listed file
-  exists, matches its `sha256` and decodes as PNG; kinds are agent, system or personal, with
-  at most one personal; every agent has at least one handle; a name is 1 to 80 characters.
+  exists, matches its `sha256` and decodes as PNG; kinds are agent, system, personal or reviewer,
+  with at most one personal and one reviewer; every agent has at least one handle; a name is 1 to 80 characters.
 - The pack holds at least one agent and at least one system avatar. A service refuses a pack
   without them, since loading it would mark every avatar of that kind it holds deleted.
 - Every file in `originals/` is listed, so a removed avatar takes its picture with it.

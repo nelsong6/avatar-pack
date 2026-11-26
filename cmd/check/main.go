@@ -49,7 +49,7 @@ func main() {
 			for _, a := range pk.Avatars {
 				counts[a.Kind]++
 			}
-			fmt.Printf("pack is good: %d agent, %d system, %d personal\n", counts["agent"], counts["system"], counts["personal"])
+			fmt.Printf("pack is good: %d agent, %d system, %d personal, %d reviewer\n", counts["agent"], counts["system"], counts["personal"], counts["reviewer"])
 		}
 	}
 }
