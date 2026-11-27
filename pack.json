@@ -199,7 +199,7 @@
     {
       "id": "av_20d6b64a56b7004fab3dac04",
       "kind": "agent",
-      "name": "Sir robin",
+      "name": "Sir Robin",
       "handles": [
         "robin"
       ],
@@ -250,7 +250,7 @@
     {
       "id": "av_b40957f17b06efb33805df88",
       "kind": "agent",
-      "name": "Gallahad",
+      "name": "Galahad",
       "handles": [
         "galahad"
       ],
